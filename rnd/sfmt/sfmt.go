@@ -6,7 +6,7 @@
 package sfmt
 
 /*
-#cgo CFLAGS: -O3 -fomit-frame-pointer -DNDEBUG -fno-strict-aliasing -std=c99 -msse2 -DHAVE_SSE2 -DSFMT_MEXP=19937
+#cgo CFLAGS: -O3 -fomit-frame-pointer -DNDEBUG -fno-strict-aliasing -std=c99 -DHAVE_SSE2 -DSFMT_MEXP=19937
 #include "connectsfmt.h"
 #ifdef WIN32
 #define LONG long long
